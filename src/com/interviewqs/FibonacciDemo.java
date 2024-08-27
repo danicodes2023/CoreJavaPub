@@ -35,6 +35,6 @@ public class FibonacciDemo {
             first = second;
             second = fib;
         }
-        System.out.println(fibonacciSeries.toString());
+        System.out.println(fibonacciSeries);//.toString() is not required since println
     }
 }

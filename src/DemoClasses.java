@@ -28,7 +28,7 @@ class Developer{
     }
 }
 public class DemoClasses {
-    public static void main(String args[]) {
+    public static void main(String[] args) {
         Computer lap = new Laptop();
         Computer desk = new Desktop();
         Developer dev = new Developer();

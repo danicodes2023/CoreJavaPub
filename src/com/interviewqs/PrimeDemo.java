@@ -4,7 +4,7 @@ import java.util.Random;
 /*Write a Java program to check if a number is prime.*/
 public class PrimeDemo {
     public static void main(String[] args) {
-        int num = 6;
+        int num;
         for(int i = 0 ; i < 10 ; i++) {
             num = new Random().nextInt(23);
             System.out.println("Is " + num + " prime? : " + isPrime(num));
