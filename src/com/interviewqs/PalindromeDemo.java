@@ -1,7 +1,7 @@
 package com.interviewqs;
 /*Write a Java program to check if a string is a palindrome.*/
 public class PalindromeDemo {
-    public static void main(String args[]){
+    public static void main(String []args){
         System.out.println(isPaliBasic("MALAYALAM"));
         System.out.println(isPalindrome("MALAYALAM"));
     }
