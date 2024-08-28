@@ -10,7 +10,7 @@ public class PrimeDemo {
             System.out.println("Is " + num + " prime? : " + isPrime(num));
         }
     }
-    public static boolean isPrime(int num){
+    public static boolean isPrime(int num){// complexity O(sqrt(N))
         if(num == 0 || num == 1) return false;
         if(num == 2) return true;
         if(num % 2 == 0) return false;
