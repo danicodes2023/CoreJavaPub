@@ -1,7 +1,5 @@
 package com.interviewqs;
 
-import java.util.Arrays;
-
 /*Write a Java program to reverse a string.*/
 public class StringReverse {
     public static void main(String[] args) {
